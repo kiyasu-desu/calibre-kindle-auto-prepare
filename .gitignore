@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Build outputs
+/dist/
+/build/
+*.zip
+
+# Local validation and configuration
+/validation/
+/local/
+/installation-state.json
+.env
+.env.*
+*.log
+
+# Personal books, metadata and library databases
+*.epub
+*.mobi
+*.azw
+*.azw3
+*.kfx
+*.pdf
+*.opf
+*.db
+*.sqlite
+*.sqlite3
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.pem
+*.key
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
